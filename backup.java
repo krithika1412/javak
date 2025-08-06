@@ -35,3 +35,91 @@ class Main {
 }
     
 --------------------------------------------------------------------------------------------------------------------------------------------
+Area of rectangle
+
+    class Main {
+    public static void main(String[] args) {
+  rectangle vi=new rectangle(10,20);
+
+    }
+}
+class rectangle
+{
+    int length,breath;
+    rectangle(int l,int b)
+    {
+        length=l;
+        breath=b;
+        getarea();
+    }
+   void getarea()
+    {
+        int area;
+        area=length*breath;
+        System.out.println(area);
+    }
+    __________________________________________________________________________________________________________________________________________
+ class Animal {
+    void eat() {
+        System.out.println("eating");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("barking");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+  Dog d=new Dog();
+  d.bark();
+  d.eat();
+    }
+}
+    ________________________________________________________________________________________________________________________________________________
+   multiple inheritence
+    
+    
+    class animal
+{
+    void sound()
+    {
+        System.out.print("sound...");
+    }
+}
+class cat extends animal
+{
+    void meow()
+    {
+        System.out.print("meow");
+    }
+}
+class dog extends animal
+{
+    void bark()
+    {
+        System.out.print("barking");
+    }
+}
+    ________________________________________________________________________________________________________________________________________
+    adding three nos
+
+    class main
+{
+    public static void main(String[] args){
+  System.out.println(adder.add(11,11));
+  System.out.println(adder.add(11,11,11));
+    }}
+    class adder
+    {
+        static int add(int a,int b)
+        {
+            return a+b;
+        }
+        static int add(int a,int b,int c)
+        {
+            return a+b+c;
+        }
+    }
